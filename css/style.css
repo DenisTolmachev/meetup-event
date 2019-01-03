@@ -442,6 +442,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   color: #ffff;
+  background-color: #282828;
 }
 
 /* line 10, ../sass/layout/_base.scss */
@@ -459,7 +460,6 @@ body {
 
 /* line 1, ../sass/layout/_header.scss */
 header {
-  height: 700px;
   background-color: #4a454b;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 84.5%, 0 100%);
@@ -532,4 +532,41 @@ header .wrap .header-counter .timer .timer-value .timer-title {
 /* line 66, ../sass/layout/_header.scss */
 header .wrap .header-counter .timer .colon {
   font-size: 130px;
+}
+/* line 71, ../sass/layout/_header.scss */
+header .wrap .header-icons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 138px;
+  margin-left: 17px;
+  transform: rotate(-5deg);
+}
+/* line 80, ../sass/layout/_header.scss */
+header .wrap .header-icons .icon1 {
+  z-index: 5;
+  transform: rotate(5deg);
+  margin-right: -58px;
+}
+/* line 85, ../sass/layout/_header.scss */
+header .wrap .header-icons .icon2 {
+  z-index: 4;
+  transform: rotate(5deg);
+  margin-right: -48px;
+}
+/* line 90, ../sass/layout/_header.scss */
+header .wrap .header-icons .icon3 {
+  z-index: 3;
+  transform: rotate(5deg);
+  margin-right: -32px;
+}
+/* line 95, ../sass/layout/_header.scss */
+header .wrap .header-icons .icon4 {
+  z-index: 2;
+  transform: rotate(5deg);
+  margin-right: -37px;
+}
+/* line 100, ../sass/layout/_header.scss */
+header .wrap .header-icons .icon5 {
+  z-index: 1;
+  transform: rotate(5deg);
 }
